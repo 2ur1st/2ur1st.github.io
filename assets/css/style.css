@@ -1,0 +1,74 @@
+body {
+    background: rgb(61, 61, 61) url("/assets/img/bg.jpg") repeat scroll left top;
+}
+@media ( min-width: 1200px ) {
+    body .container {
+        width: 970px !important;
+    }
+}
+#content {
+    margin-bottom: 20px;
+}
+#artilce-block {
+    margin: 10px 0 20px;
+}
+.wrapper, .container footer {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 1px 1px 10px 5px #000;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.header-image {
+    display: block;
+    margin: 15px auto 10px;
+}
+.tags-block {
+    margin: 10px 0;
+}
+.tags-block a {
+    text-decoration: none;
+}
+
+#vk_comments, #vk_comments > iframe {
+    width: 100% !important;
+}
+.logo {
+    position: relative;
+}
+.logo > a {
+    display: block;
+    font-family: "Comfortaa",cursive;
+    font-size: 32pt;
+    position: absolute;
+    text-shadow: 1px 1px #fff;
+    top: -70px;
+}
+.logo > a:hover {
+    text-decoration: none;
+    color: #783E2E;
+}
+footer .github, .footer_logo {
+    /*background: rgba(0, 0, 0, 0) url("/img/github.png") no-repeat scroll 92% center / 26px auto;*/
+    color: black;
+    display: block;
+    font-family: "Comfortaa",cursive;
+    font-size: 22px;
+    text-align: right;
+}
+.footer_logo {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+}
+.download {
+    color: black;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: "Comfortaa",cursive;
+    font-style: italic;
+}
+.nowrap {
+    white-space: nowrap;
+}
+i {
+    font-size: 8pt;
+}
